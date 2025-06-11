@@ -29,7 +29,7 @@ userRouter.get("/:id", md1, md2, (req, res) => {
     }
 })
 
-userRouter.post("/", uploader.single("file"), (req, res) => {
+userRouter.post("/", uploader.single("archivo"), (req, res) => {
     console.log(req.file);
     /* if (!req.file) {
         res.status(400).send({status:"error", message:"No existe el archivo!"});

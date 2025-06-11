@@ -1,7 +1,7 @@
 import express from "express"
 import { userRouter } from "./routes/users.router.js";
 import { petsRouter } from "./routes/pets.router.js";
-import {__dirname} from "./utils.js";
+import __dirname from "./utils.js";
 
 const app = express();
 const port = 8080;
