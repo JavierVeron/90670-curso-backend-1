@@ -1,0 +1,27 @@
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h1 class="display-6">Registrar Usuario</h1>
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Correo</label>
+                    <input type="text" class="form-control" id="correo">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="contrasena">
+                </div>
+                <button type="button" class="btn btn-primary" onclick="registrarUsuario()">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div id="resultado" class="col my-5"></div>
+    </div>
+</div>
+
+<script src="js/register.js"></script>
