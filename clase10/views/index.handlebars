@@ -1,0 +1,25 @@
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-4 offset-md-4 text-center">
+            <h1 class="display-6">WebSockets</h1>
+            {{!-- <p id="bienvenida"></p>
+            <p id="texto"></p> --}}
+            <form>
+                <div class="mb-3">
+                    <label for="textoEnviado" class="form-label">Texto</label>
+                    <input type="text" class="form-control" id="textoEnviado">
+                    {{!-- <div id="textoRecibido" class="form-text"></div> --}}
+                </div>
+                <button type="button" class="btn btn-primary" onclick="enviarMensaje()">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 offset-md-4 text-center my-5">
+            <ul id="mensajes" class="list-group"></ul>
+        </div>
+    </div>
+</div>
+
+<script src="socket.io/socket.io.js"></script>
+<script src="js/index.js"></script>
