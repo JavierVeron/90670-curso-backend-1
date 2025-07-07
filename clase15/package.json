@@ -1,0 +1,27 @@
+{
+  "name": "90670",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavierVeron/90670-curso-backend-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/JavierVeron/90670-curso-backend-1/issues"
+  },
+  "homepage": "https://github.com/JavierVeron/90670-curso-backend-1#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.2",
+    "mongoose": "^8.16.1"
+  }
+}
